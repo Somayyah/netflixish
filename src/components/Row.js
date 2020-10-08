@@ -1,8 +1,11 @@
 import React from "react";
-
-function Row(){
+import '../assets/main.css'
+function Row({title}){
 	return(
-		<h1>Component Created Successfully :)</h1>
+		<div>
+			<h2>{title}</h2>
+			{/* container -> posters */}
+		</div>
 	)
 }
 
