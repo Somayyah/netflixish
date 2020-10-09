@@ -3,7 +3,7 @@ import '../assets/main.css'
 function Row({title}){
 	return(
 		<div>
-			<h2>{title}</h2>
+			<h1>{title}</h1>
 			{/* container -> posters */}
 		</div>
 	)
