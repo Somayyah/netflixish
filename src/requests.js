@@ -1,6 +1,5 @@
-const env = require('dotenv').config()
-const api_key = process.env.API_KEY;
-console.log(api_key)
+require('dotenv').config()
+const api_key = "5a2d55143f5b5dbf5c59611567f24a52";
 const requests = {
     fetchTrending: `/trending/all/week?api_key=${api_key}&language=en-us`,
     fetchNetflixOriginals: `/discover/tv?api_key=${api_key}&language=en-us`,
