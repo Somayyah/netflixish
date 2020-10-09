@@ -8,7 +8,7 @@ function Row({title, fetchUrl}){
 	useEffect(()=>{
 		async function fetchData() {
 			const request = await axios.get(fetchUrl);
-			setMovies(request.data.results)
+			setMovies(request.data.results.slice(5))
 			//return request;
 		}
 		fetchData();
