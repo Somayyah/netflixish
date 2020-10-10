@@ -8,6 +8,7 @@ function Movies({ data }) {
 				const src = base_url + movie.poster_path;
 				return (
 					<img
+						key={movie.id}
 						className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 mb-4 px-2 w-1/1 md:w-1/6 lg:w-1/12"
 						src={src}
 						alt={movie.name}
