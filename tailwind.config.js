@@ -9,6 +9,13 @@ module.exports = {
   important: false,
   separator: ':',
   theme: {
+    extend: {
+      width: theme => ({
+        '1/10': '10%',
+        '1/8': '12.5%',
+        '1/9': '11.111111%',
+      }),
+    },
     screens: {
       sm: '640px',
       md: '768px',
