@@ -16,7 +16,7 @@ function Row({title, fetchUrl}){
 
 	return(
 		<div>
-			<h1>{title}</h1>
+			<h1 className="text-3xl mb-2">{title}</h1>
 			<Movies data={movies}/>
 		</div>
 	)

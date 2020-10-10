@@ -1,9 +1,10 @@
 import React from 'react';
 import Home from './views/Home';
+import './assets/main.css'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-gray-900">
       <Home />
     </div>
   );

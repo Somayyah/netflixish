@@ -7,10 +7,10 @@ import '../assets/main.css';
 
 function Home(){
 	return(
-		<div>
+		<div className="p-6 text-gray-100 font-bold">
 			<Banner />
-			<div>
-			<Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals}/>
+			<div className="">
+			<Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals}/>
       		<Row title="Trending Now" fetchUrl={requests.fetchTrending}/>
       		<Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
       		<Row title="Action Movies" fetchUrl={requests.fetchActionMovis}/>
