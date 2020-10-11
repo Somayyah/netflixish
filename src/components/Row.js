@@ -13,6 +13,7 @@ function Row({title, fetchUrl, isLargeRow}){
 		fetchData();
 	},[fetchUrl]);
 
+
 	return(
 		<div>
 			<h1 className="text-xl md:text-2xl mb-2">{title}</h1>
