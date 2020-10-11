@@ -15,8 +15,8 @@ module.exports = {
         '1/8': '12.5%',
         '1/9': '11.111111%',
       }),
-      backgroundImage: theme => ({
-        'movie': "url('/img/movie.jpg')",
+      height: theme => ({
+        '80': "80vh",
       })
     },
     screens: {

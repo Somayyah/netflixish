@@ -19,19 +19,21 @@ function Banner() {
 		fetchData();
 	}, []);
 
-	console.log("from banner: ", movie);
 	return (
 		<header
+			className="bg-cover h-80 bg-top bg-no-repeat bg-fixed"
 			style={{
-				backgroundSize: "cover",
-				backgroundImage: `url(${base_url}${movie.backdrop_poster})`,
-				backgroundPosition: "center center",
+				backgroundImage: `url(${base_url}${movie?.backdrop_path})`,
 			}}
 		>
-			<div>
-				<h1>{movie.name}</h1>
-				<p>{movie.overview}</p>
-			</div>
+				<div className="h-full">
+					<h1 className="mt-6">{movie?.name || movie?.title || movie?.original_name}</h1>
+					<div>
+						<button className="">Play</button>
+						<button className="">My List</button>
+					</div>
+					<p>{movie?.overview}</p>
+				</div>
 		</header>
 	);
 }

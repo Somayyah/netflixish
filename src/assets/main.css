@@ -10367,6 +10367,10 @@ div::-webkit-scrollbar {
   height: 16rem;
 }
 
+.h-80 {
+  height: 80vh;
+}
+
 .h-auto {
   height: auto;
 }
@@ -28603,6 +28607,10 @@ div::-webkit-scrollbar {
     height: 16rem;
   }
 
+  .sm\:h-80 {
+    height: 80vh;
+  }
+
   .sm\:h-auto {
     height: auto;
   }
@@ -46807,6 +46815,10 @@ div::-webkit-scrollbar {
 
   .md\:h-64 {
     height: 16rem;
+  }
+
+  .md\:h-80 {
+    height: 80vh;
   }
 
   .md\:h-auto {
@@ -65015,6 +65027,10 @@ div::-webkit-scrollbar {
     height: 16rem;
   }
 
+  .lg\:h-80 {
+    height: 80vh;
+  }
+
   .lg\:h-auto {
     height: auto;
   }
@@ -83219,6 +83235,10 @@ div::-webkit-scrollbar {
 
   .xl\:h-64 {
     height: 16rem;
+  }
+
+  .xl\:h-80 {
+    height: 80vh;
   }
 
   .xl\:h-auto {
