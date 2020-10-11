@@ -19,21 +19,37 @@ function Banner() {
 		fetchData();
 	}, []);
 
+	function truncate(str, n) {
+		return str?.length > n ? str.substr(0, n - 1) + "..." : str;
+	}
+
 	return (
 		<header
-			className="bg-cover h-80 bg-top bg-no-repeat bg-fixed"
+			className="bg-cover h-80 bg-top bg-no-repeat"
 			style={{
 				backgroundImage: `url(${base_url}${movie?.backdrop_path})`,
 			}}
 		>
-				<div className="h-full">
-					<h1 className="mt-6">{movie?.name || movie?.title || movie?.original_name}</h1>
-					<div>
-						<button className="">Play</button>
-						<button className="">My List</button>
-					</div>
-					<p>{movie?.overview}</p>
+			<div className="px-16 h-full absolute  mt-48">
+				<h1 className="text-5xl">
+					{movie?.name || movie?.title || movie?.original_name}
+				</h1>
+				<div className="py-2 font-normal">
+					<button className="px-6 py-1 opacity-50 cursor-pointer text-gray-100 outline-none font-semibold rounded-sm bg-gray-800 hover:bg-gray-100 hover:text-gray-900">
+						Play
+					</button>
+					<button
+						className="hover:bg-gray-100 hover:text-gray-900
+					px-6 py-1 opacity-50 ml-3 cursor-pointer text-gray-100 outline-none border-none font-semibold rounded-sm bg-gray-800"
+					>
+						My List
+					</button>
 				</div>
+				<p className="font-normal text-xl w-3/6">
+					{truncate(movie?.overview, 150)}
+				</p>
+			</div>
+			<div className="h-full from-gray-900 to-transparent bg-gradient-to-t"></div>
 		</header>
 	);
 }
