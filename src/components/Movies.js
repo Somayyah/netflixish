@@ -1,5 +1,6 @@
 import React from "react";
 const base_url = "https://image.tmdb.org/t/p/original/";
+
 function Movies({ data , isLarge}) {
 	return (
 		<div className=" ml-4 flex -mx-1 overflow-y-hidden overflow-x-scroll">
