@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "../axios";
 import requests from "../requests";
+import Nav from "../components/Nav";
 import "../assets/main.css";
 
 const base_url = "https://image.tmdb.org/t/p/original/";
@@ -25,16 +26,17 @@ function Banner() {
 
 	return (
 		<header
-			className="bg-cover h-80 bg-top bg-no-repeat"
+			className="bg-cover h-80 bg-top bg-no-repeat bg-fixed"
 			style={{
 				backgroundImage: `url(${base_url}${movie?.backdrop_path})`,
 			}}
 		>
-			<div className="px-16 h-full absolute  mt-48">
+			<Nav />
+			<div className="px-16 z-0 h-full absolute   mt-48">
 				<h1 className="text-5xl">
 					{movie?.name || movie?.title || movie?.original_name}
 				</h1>
-				<div className="py-2 font-normal">
+				<div className=" py-2 font-normal">
 					<button className="px-6 py-1 opacity-50 cursor-pointer text-gray-100 outline-none font-semibold rounded-sm bg-gray-800 hover:bg-gray-100 hover:text-gray-900">
 						Play
 					</button>

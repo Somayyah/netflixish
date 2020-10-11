@@ -14,10 +14,14 @@ module.exports = {
         '1/10': '10%',
         '1/8': '12.5%',
         '1/9': '11.111111%',
+        'screen/9':'90%',
       }),
       height: theme => ({
         '80': "80vh",
-      })
+      }),
+      margin: (theme, { negative }) => ({
+       '128' : '70rem',
+      }),
     },
     screens: {
       sm: '640px',

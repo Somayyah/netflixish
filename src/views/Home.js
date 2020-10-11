@@ -2,14 +2,12 @@ import React from "react";
 import Row from "../components/Row";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
-import Nav from "../components/Nav";
 import requests from "../requests";
 import "../assets/main.css";
 
 function Home() {
 	return (
 		<div className="text-gray-100 font-bold">
-			<Nav />
 			<Banner />
 			<div className="p-6">
 				<Row

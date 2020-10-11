@@ -10575,6 +10575,10 @@ div::-webkit-scrollbar {
   margin: 16rem;
 }
 
+.m-128 {
+  margin: 70rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -10833,6 +10837,16 @@ div::-webkit-scrollbar {
 .mx-64 {
   margin-left: 16rem;
   margin-right: 16rem;
+}
+
+.my-128 {
+  margin-top: 70rem;
+  margin-bottom: 70rem;
+}
+
+.mx-128 {
+  margin-left: 70rem;
+  margin-right: 70rem;
 }
 
 .my-auto {
@@ -11321,6 +11335,22 @@ div::-webkit-scrollbar {
 
 .ml-64 {
   margin-left: 16rem;
+}
+
+.mt-128 {
+  margin-top: 70rem;
+}
+
+.mr-128 {
+  margin-right: 70rem;
+}
+
+.mb-128 {
+  margin-bottom: 70rem;
+}
+
+.ml-128 {
+  margin-left: 70rem;
 }
 
 .mt-auto {
@@ -16127,6 +16157,10 @@ div::-webkit-scrollbar {
 
 .w-1\/9 {
   width: 11.111111%;
+}
+
+.w-screen\/9 {
+  width: 90%;
 }
 
 .z-0 {
@@ -28815,6 +28849,10 @@ div::-webkit-scrollbar {
     margin: 16rem;
   }
 
+  .sm\:m-128 {
+    margin: 70rem;
+  }
+
   .sm\:m-auto {
     margin: auto;
   }
@@ -29073,6 +29111,16 @@ div::-webkit-scrollbar {
   .sm\:mx-64 {
     margin-left: 16rem;
     margin-right: 16rem;
+  }
+
+  .sm\:my-128 {
+    margin-top: 70rem;
+    margin-bottom: 70rem;
+  }
+
+  .sm\:mx-128 {
+    margin-left: 70rem;
+    margin-right: 70rem;
   }
 
   .sm\:my-auto {
@@ -29561,6 +29609,22 @@ div::-webkit-scrollbar {
 
   .sm\:ml-64 {
     margin-left: 16rem;
+  }
+
+  .sm\:mt-128 {
+    margin-top: 70rem;
+  }
+
+  .sm\:mr-128 {
+    margin-right: 70rem;
+  }
+
+  .sm\:mb-128 {
+    margin-bottom: 70rem;
+  }
+
+  .sm\:ml-128 {
+    margin-left: 70rem;
   }
 
   .sm\:mt-auto {
@@ -34367,6 +34431,10 @@ div::-webkit-scrollbar {
 
   .sm\:w-1\/9 {
     width: 11.111111%;
+  }
+
+  .sm\:w-screen\/9 {
+    width: 90%;
   }
 
   .sm\:z-0 {
@@ -47025,6 +47093,10 @@ div::-webkit-scrollbar {
     margin: 16rem;
   }
 
+  .md\:m-128 {
+    margin: 70rem;
+  }
+
   .md\:m-auto {
     margin: auto;
   }
@@ -47283,6 +47355,16 @@ div::-webkit-scrollbar {
   .md\:mx-64 {
     margin-left: 16rem;
     margin-right: 16rem;
+  }
+
+  .md\:my-128 {
+    margin-top: 70rem;
+    margin-bottom: 70rem;
+  }
+
+  .md\:mx-128 {
+    margin-left: 70rem;
+    margin-right: 70rem;
   }
 
   .md\:my-auto {
@@ -47771,6 +47853,22 @@ div::-webkit-scrollbar {
 
   .md\:ml-64 {
     margin-left: 16rem;
+  }
+
+  .md\:mt-128 {
+    margin-top: 70rem;
+  }
+
+  .md\:mr-128 {
+    margin-right: 70rem;
+  }
+
+  .md\:mb-128 {
+    margin-bottom: 70rem;
+  }
+
+  .md\:ml-128 {
+    margin-left: 70rem;
   }
 
   .md\:mt-auto {
@@ -52577,6 +52675,10 @@ div::-webkit-scrollbar {
 
   .md\:w-1\/9 {
     width: 11.111111%;
+  }
+
+  .md\:w-screen\/9 {
+    width: 90%;
   }
 
   .md\:z-0 {
@@ -65235,6 +65337,10 @@ div::-webkit-scrollbar {
     margin: 16rem;
   }
 
+  .lg\:m-128 {
+    margin: 70rem;
+  }
+
   .lg\:m-auto {
     margin: auto;
   }
@@ -65493,6 +65599,16 @@ div::-webkit-scrollbar {
   .lg\:mx-64 {
     margin-left: 16rem;
     margin-right: 16rem;
+  }
+
+  .lg\:my-128 {
+    margin-top: 70rem;
+    margin-bottom: 70rem;
+  }
+
+  .lg\:mx-128 {
+    margin-left: 70rem;
+    margin-right: 70rem;
   }
 
   .lg\:my-auto {
@@ -65981,6 +66097,22 @@ div::-webkit-scrollbar {
 
   .lg\:ml-64 {
     margin-left: 16rem;
+  }
+
+  .lg\:mt-128 {
+    margin-top: 70rem;
+  }
+
+  .lg\:mr-128 {
+    margin-right: 70rem;
+  }
+
+  .lg\:mb-128 {
+    margin-bottom: 70rem;
+  }
+
+  .lg\:ml-128 {
+    margin-left: 70rem;
   }
 
   .lg\:mt-auto {
@@ -70787,6 +70919,10 @@ div::-webkit-scrollbar {
 
   .lg\:w-1\/9 {
     width: 11.111111%;
+  }
+
+  .lg\:w-screen\/9 {
+    width: 90%;
   }
 
   .lg\:z-0 {
@@ -83445,6 +83581,10 @@ div::-webkit-scrollbar {
     margin: 16rem;
   }
 
+  .xl\:m-128 {
+    margin: 70rem;
+  }
+
   .xl\:m-auto {
     margin: auto;
   }
@@ -83703,6 +83843,16 @@ div::-webkit-scrollbar {
   .xl\:mx-64 {
     margin-left: 16rem;
     margin-right: 16rem;
+  }
+
+  .xl\:my-128 {
+    margin-top: 70rem;
+    margin-bottom: 70rem;
+  }
+
+  .xl\:mx-128 {
+    margin-left: 70rem;
+    margin-right: 70rem;
   }
 
   .xl\:my-auto {
@@ -84191,6 +84341,22 @@ div::-webkit-scrollbar {
 
   .xl\:ml-64 {
     margin-left: 16rem;
+  }
+
+  .xl\:mt-128 {
+    margin-top: 70rem;
+  }
+
+  .xl\:mr-128 {
+    margin-right: 70rem;
+  }
+
+  .xl\:mb-128 {
+    margin-bottom: 70rem;
+  }
+
+  .xl\:ml-128 {
+    margin-left: 70rem;
   }
 
   .xl\:mt-auto {
@@ -88997,6 +89163,10 @@ div::-webkit-scrollbar {
 
   .xl\:w-1\/9 {
     width: 11.111111%;
+  }
+
+  .xl\:w-screen\/9 {
+    width: 90%;
   }
 
   .xl\:z-0 {
