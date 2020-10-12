@@ -26,7 +26,6 @@ function Home() {
 					fetchUrl={requests.fetchDocumentaries}
 				/>
 			</div>
-			<Footer />
 		</div>
 	);
 }
