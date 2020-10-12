@@ -1,16 +1,10 @@
 {
   "hosting": {
-    "public": "build",
+    "public": "build/netflixish",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
