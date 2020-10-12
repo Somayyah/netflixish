@@ -15,15 +15,7 @@ function Home() {
 					isLargeRow
 					fetchUrl={requests.fetchNetflixOriginals}
 				/>
-			</div>
-			<Footer />
-		</div>
-	);
-}
-
-/*
-
-				<Row title="Trending Now" fetchUrl={requests.fetchTrending} />
+								<Row title="Trending Now" fetchUrl={requests.fetchTrending} />
 				<Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
 				<Row title="Action Movies" fetchUrl={requests.fetchActionMovis} />
 				<Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovis} />
@@ -33,6 +25,10 @@ function Home() {
 					title="Documentaries Movies"
 					fetchUrl={requests.fetchDocumentaries}
 				/>
-*/
+			</div>
+			<Footer />
+		</div>
+	);
+}
 
 export default Home;
